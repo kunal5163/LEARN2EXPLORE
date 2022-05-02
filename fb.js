@@ -61,7 +61,7 @@ var jsonStr = validateAndGetFormData();
 if (jsonStr === "") {
 return;
 }
-var putReqStr = createPUTRequest("90938681|-31949283316500863|90946461",
+var putReqStr = createPUTRequest("90938681|-31949283292938862|90946462",
 jsonStr, "Customer", "Customer-rel");
 alert(putReqStr);
 jQuery.ajaxSetup({async: false});
