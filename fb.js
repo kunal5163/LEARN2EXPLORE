@@ -62,7 +62,7 @@ if (jsonStr === "") {
 return;
 }
 var putReqStr = createPUTRequest("90938681|-31949283316500863|90946461",
-jsonStr, "Employee", "emp-rel");
+jsonStr, "Customer", "Customer-rel");
 alert(putReqStr);
 jQuery.ajaxSetup({async: false});
 var resultObj = executeCommandAtGivenBaseUrl(putReqStr,
