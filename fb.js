@@ -1,9 +1,3 @@
-var signup1=document.querySelector('.signup1');
-var signup1=document.querySelector('.form1');
-document.querySelector('.signup1').addEventListener('click',function(){
-	signup1.classList.remove('hidden');
-	
-})
 
 $("#fullname").focus();
 function validateAndGetFormData() {
